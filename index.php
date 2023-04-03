@@ -21,7 +21,6 @@
             $pass = 'example';
 
             try {
-                //$dbh = new PDO('mysql:host=mysql-service.default.svc;port=3306;dbname=app', $user, $pass);
                 $dbh = new PDO('mysql:host=mysql-service;dbname=app', $user, $pass);
                 foreach ($dbh->query('SELECT * from message') as $row) {
                     $html = "<tr><td>${row['id']}</td><td>${row['message']}</td></tr>";
