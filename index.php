@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Docker Tutorial</title>
+    <title>CD-testing PHP + MySQL</title>
     <meta name="description" content="Learn how to use Docker with PHP">
     <meta name="author" content="Matthew Parris">
 </head>
