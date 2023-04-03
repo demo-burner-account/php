@@ -7,11 +7,12 @@ COPY ./index.php /usr/src/app/index.php
 WORKDIR /usr/src/app
 
 # Our PHP will be running on port 8000
-EXPOSE 8000
+# EXPOSE 8000
+EXPOSE 80 
 
 # Install the PDO MySQL extension so we can database
 RUN docker-php-ext-install pdo_mysql
 
 # Set up a web server
 #CMD ["php", "-S", "0.0.0.0:8000"]
-CMD "php", "-S", "0.0.0.0:8000"
+CMD "php"
