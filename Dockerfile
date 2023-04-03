@@ -14,4 +14,3 @@ RUN docker-php-ext-install pdo_mysql
 
 # Set up a web server
 # CMD ["php", "-S", "0.0.0.0:8000"]
-CMD php -S 0.0.0.0:8000
