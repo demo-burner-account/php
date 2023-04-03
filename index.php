@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CD-test PHP + MySQL</title>
+    <title>CD test PHP + MySQL</title>
 </head>
 
 <body>
