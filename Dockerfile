@@ -1,7 +1,7 @@
 FROM php:7.4-cli
 
 # Move our PHP file into the container
-COPY ./php/index.php /usr/src/app/index.php
+COPY ./index.php /usr/src/app/index.php
 
 # Make things easier if you shell in
 WORKDIR /usr/src/app
