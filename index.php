@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <h1>Docker Tutorial</h1>
+    <h1>CD-test PHP + MySQL</h1>
     <div class=".db-table">
         <table>
             <tr>
                 <th>Id</th>
-                <th>Message</th>
+                <th>Version:</th>
             </tr>
             <?php
             $user = 'root';
