@@ -13,7 +13,6 @@
     <div class=".db-table">
         <table>
             <tr>
-                <th>Id</th>
                 <th>Version:</th>
             </tr>
             <?php
