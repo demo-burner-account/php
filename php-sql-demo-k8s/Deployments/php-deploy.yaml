@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: php-demo-k8s
+spec:
+  selector:
+    matchLabels:
+      app: php-test
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: php-test
+    spec:
+      containers:
+      - name: php-test
+        image: demoburneraccount/ci-testing:php
+        ports:
+        - containerPort: 8000
