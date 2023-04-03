@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 EXPOSE 8000
 
 # Install the PDO MySQL extension so we can database
-# RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install pdo_mysql
 
 # Set up a web server
 CMD ["php", "-S", "0.0.0.0:8000"]
