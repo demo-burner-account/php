@@ -4,8 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>CD-test PHP + MySQL</title>
-    <meta name="description" content="Learn how to use Docker with PHP">
-    <meta name="author" content="Matthew Parris">
 </head>
 
 <body>
@@ -17,7 +15,7 @@
             </tr>
             <?php
             $user = 'root';
-            $pass = 'example';
+            $pass = '86@7si7PpRkiG.HF';
 
             try {
                 $dbh = new PDO('mysql:host=mysql-service;dbname=app', $user, $pass);
