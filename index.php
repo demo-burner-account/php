@@ -15,7 +15,7 @@
             </tr>
             <?php
             $user = 'root';
-            $pass = '86@7si7PpRkiG.HF';
+            $pass = 'example';
 
             try {
                 $dbh = new PDO('mysql:host=mysql-service;dbname=app', $user, $pass);
