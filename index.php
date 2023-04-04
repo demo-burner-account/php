@@ -11,7 +11,7 @@
     <div class=".db-table">
         <table>
             <tr>
-                <th>Version:1.0</th>
+                <th>Version: v1.0</th>
             </tr>
             <?php
             $user = 'root';
