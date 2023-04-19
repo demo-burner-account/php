@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CD test PHP + MySQL</title>
+    <title>CI test PHP + MySQL</title>
 </head>
 
 <body>
-    <h1>CD-test PHP + MySQL</h1>
+    <h1>CI-test PHP + MySQL</h1>
     <div class=".db-table">
         <table>
             <tr>
