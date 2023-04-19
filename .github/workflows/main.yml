@@ -18,4 +18,4 @@ jobs:
         docker build . -t demoburneraccount/ci-testing:php1
     - name: docker push
       run: |
-        docker push demoburneraccount/ci-testing:php1
+        docker push demoburneraccount/ci-testing:php2
